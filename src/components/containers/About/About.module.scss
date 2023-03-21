@@ -1,0 +1,61 @@
+.container {
+    background-color: #ffffff;
+    height: auto;
+
+    .mainTitle {
+        color: #000000;
+        margin-block-start: 164px;
+        margin-inline-start: 164px;
+        font-size: 36px;
+    }
+
+    .infoContainer {
+        display: flex;
+
+        .companyInfo {
+            display: flex;
+            gap: 64px 0;
+            width: 713px;
+            margin-top: 124px;
+            display: flex;
+            flex-direction: column;
+            font-size: 36px;
+            margin-inline-start: 164px;
+
+        }
+
+        .teamInfo {
+            margin-top: 124px;
+            display: flex;
+            flex-direction: column;
+
+            gap: 64px 0;
+            margin-inline-start: 60px;
+
+            &__container {
+                display: flex;
+                flex-direction: column;
+
+
+                &--tag {
+                    width: 122px;
+                    height: 122px;
+                    margin-bottom: 8px;
+                }
+
+                &--text {
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+.hayotaLady {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

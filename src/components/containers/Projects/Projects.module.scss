@@ -1,0 +1,30 @@
+.container {
+    .mainTitle {
+        position: fixed;
+        color: white;
+        margin-block-start: 164px;
+        margin-inline-start: 164px;
+        font-size: 36px;
+
+    }
+
+    .projecstContainer {
+        display: flex;
+        overflow-x: auto;
+        gap: 0 32px;
+        height: 100vh;
+        align-items: center;
+        margin-inline-start: 164px;
+
+
+    }
+
+
+}
+
+
+.hayotaLady {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

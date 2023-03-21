@@ -1,0 +1,56 @@
+.container {
+    background-color: #ffffff;
+    height: 100vh;
+
+    .mainTitle {
+        color: #000000;
+        margin-block-start: 164px;
+        margin-inline-start: 164px;
+        font-size: 36px;
+
+    }
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 128px;
+
+        & h1 {
+            font-size: 96px;
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .emailContainer {
+            p {
+                font-size: 32px;
+                text-align: center;
+
+            }
+
+            a {
+                font-size: 96px;
+                text-align: center;
+                display: block;
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 64px;
+            }
+        }
+
+    }
+
+
+
+
+
+
+}
+
+
+.hayotaLady {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

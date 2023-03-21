@@ -1,0 +1,11 @@
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+
+    .button {
+        font-size: 36px;
+        text-decoration: none;
+        color: #000000;
+    }
+}
