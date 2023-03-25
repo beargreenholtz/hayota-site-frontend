@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../../assets/hayotalogospin.png';
+import logo from '../../../assets/hayotalogospin.gif';
 import hayotaLady from '../../../assets/hayotalady.png';
 
 import classes from './Main.module.scss';

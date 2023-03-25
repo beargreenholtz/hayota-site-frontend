@@ -5,9 +5,12 @@
 
     display: grid;
     place-content: center;
+    justify-items: center;
+
 
     .logo {
         padding-bottom: 100px;
+        width: 875px;
     }
 
 
