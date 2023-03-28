@@ -3,6 +3,9 @@
 @import '../../../styles/variables.scss';
 
 .container {
+    cursor: url('https://i.imgur.com/T4jGqyF.png')29 29, auto;
+
+
     .mainTitle {
         position: fixed;
         color: white;
@@ -31,6 +34,139 @@
     position: fixed;
     bottom: 0;
     right: 0;
+    animation: cursor 1.5s linear infinite;
+
+    @keyframes cursor {
+        0% {
+            cursor: url("https://i.imgur.com/ycm6idv.png")29 29, auto;
+        }
+
+        4% {
+            cursor: url("https://i.imgur.com/jjTby7i.png")29 29, auto;
+
+        }
+
+        8% {
+            cursor: url("https://i.imgur.com/OojdSPx.png")29 29, auto;
+
+        }
+
+        12% {
+            cursor: url("https://i.imgur.com/X7Ffw08.png")29 29, auto;
+
+        }
+
+        16% {
+            cursor: url("https://i.imgur.com/ltYxr1W.png")29 29, auto;
+
+        }
+
+        20% {
+            cursor: url("https://i.imgur.com/4ONnraA.png")29 29, auto;
+
+        }
+
+        24% {
+            cursor: url("https://i.imgur.com/mKSzFSw.png")29 29, auto;
+
+        }
+
+        28% {
+            cursor: url("https://i.imgur.com/gfrI16L.png")29 29, auto;
+
+        }
+
+        32% {
+            cursor: url("https://i.imgur.com/PFZmfJb.png")29 29, auto;
+
+        }
+
+        36% {
+            cursor: url("https://i.imgur.com/2MY6jcp.png")29 29, auto;
+
+        }
+
+        40% {
+            cursor: url("https://i.imgur.com/Wp6ByVy.png")29 29, auto;
+
+        }
+
+        44% {
+            cursor: url("https://i.imgur.com/C0BxbPn.png")29 29, auto;
+
+        }
+
+        48% {
+            cursor: url("https://i.imgur.com/C0BxbPn.png")29 29, auto;
+
+        }
+
+        52% {
+            cursor: url("https://i.imgur.com/knoHOeW.png")29 29, auto;
+
+        }
+
+        56% {
+            cursor: url("https://i.imgur.com/DIMyrKe.png")29 29, auto;
+
+        }
+
+        60% {
+            cursor: url("https://i.imgur.com/DIMyrKe.png")29 29, auto;
+
+        }
+
+        64% {
+            cursor: url("https://i.imgur.com/DHHS2xG.png")29 29, auto;
+
+        }
+
+        68% {
+            cursor: url("https://i.imgur.com/IvwgQ08.png")29 29, auto;
+
+        }
+
+        72% {
+            cursor: url("https://i.imgur.com/ENaYloC.png")29 29, auto;
+
+        }
+
+        76% {
+            cursor: url("https://i.imgur.com/TSnZor0.png")29 29, auto;
+
+        }
+
+        80% {
+            cursor: url("https://i.imgur.com/LDvtJ5H.png")29 29, auto;
+
+        }
+
+        84% {
+            cursor: url("https://i.imgur.com/JqyUeVI.png")29 29, auto;
+
+        }
+
+        88% {
+            cursor: url("https://i.imgur.com/wVjfz1D.png")29 29, auto;
+
+        }
+
+        92% {
+            cursor: url("https://i.imgur.com/vvbaQFR.png")29 29, auto;
+
+        }
+
+        96% {
+            cursor: url("https://i.imgur.com/vvbaQFR.png")29 29, auto;
+
+        }
+
+        100% {
+            cursor: url("https://i.imgur.com/bTq6Esw.png")29 29, auto;
+        }
+    }
+
+
 }
 
 @media (max-width: map.get($sizes, main-mobile-width)) {

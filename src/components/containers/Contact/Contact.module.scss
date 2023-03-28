@@ -3,6 +3,8 @@
 @import '../../../styles/variables.scss';
 
 .container {
+    cursor: url('https://i.imgur.com/mGmmKd8.png')29 29, auto;
+
     background-color: #ffffff;
     height: 100vh;
     overflow-y: auto;
@@ -11,6 +13,8 @@
         position: fixed;
         bottom: 0;
         right: 0;
+        cursor: url('https://i.imgur.com/RmWj5D8.png')29 29, auto;
+
     }
 
     .mainTitle {
@@ -49,6 +53,8 @@
                 text-align: center;
                 display: block;
                 text-decoration-line: underline;
+                cursor: url('https://i.imgur.com/RmWj5D8.png')29 29, auto;
+
             }
 
             &:not(:last-child) {
