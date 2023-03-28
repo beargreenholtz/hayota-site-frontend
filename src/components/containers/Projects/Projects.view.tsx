@@ -14,7 +14,7 @@ const ProjectsView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) 
     <>
       <button onClick={props.onNevigateToMain} className={classes['button'] }><img src={hayotaLady} alt="logo" className={classes['hayotaLady']}/></button>
       <section className={classes['container']}>
-        <h1 className={classes['mainTitle']}>Projects</h1>
+        <h1 className={classes['mainTitle']}>PROJECTS</h1>
 
         <ScrollContainer
           hideScrollbars
