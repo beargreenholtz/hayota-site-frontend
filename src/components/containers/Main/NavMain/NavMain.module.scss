@@ -1,3 +1,7 @@
+@use 'sass:map';
+
+@import '../../../../styles/variables.scss';
+
 .buttons {
     display: flex;
     justify-content: space-around;
@@ -8,4 +12,15 @@
         text-decoration: none;
         color: #000000;
     }
+}
+
+
+
+@media (max-width: map.get($sizes, main-mobile-width)) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 88px 0;
+    }
+
 }

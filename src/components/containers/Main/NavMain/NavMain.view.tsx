@@ -18,9 +18,9 @@ const NavMainView: React.FC<IProps> = (
         onClick={props.onNevigateToProjects}
         className={classes['button']}
       >
-        Projects
+        PROJECTS
       </button>
-      <button onClick={props.onNevigateToAbout} className={classes['button'] }>ABOUT</button>
+      <button onClick={props.onNevigateToAbout} className={classes['button'] }>HUMANS</button>
       <button onClick={props.onNevigateToContact} className={classes['button']}>CONTACT</button>
     </div>
   );

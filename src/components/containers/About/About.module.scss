@@ -1,4 +1,16 @@
+@use 'sass:map';
+
+@import '../../../styles/variables.scss';
+
+
 .container {
+
+    .hayotaLady {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
     background-color: #ffffff;
     height: auto;
 
@@ -22,10 +34,14 @@
             font-size: 36px;
             margin-inline-start: 164px;
 
+            & span {
+                color: #FF3131;
+            }
+
         }
 
         .teamInfo {
-            margin-top: 124px;
+            margin: 124px 0 192px 0;
             display: flex;
             flex-direction: column;
 
@@ -54,8 +70,71 @@
 }
 
 
-.hayotaLady {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+
+
+
+
+@media (max-width: map.get($sizes, main-mobile-width)) {
+
+
+
+    .container {
+        max-width: map.get($sizes, main-mobile-width);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .hayotaLady {
+            position: static;
+            margin-top: 42px;
+        }
+
+        .mainTitle {
+            margin-block-start: 0;
+            margin-inline-start: 0;
+            margin-top: 64px;
+        }
+
+
+        .infoContainer {
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+
+            .companyInfo {
+                margin-top: 64px;
+                width: 287px;
+                margin-inline-start: 0;
+                font-size: 32px;
+            }
+
+            .teamInfo {
+                margin-inline-start: 0;
+                margin: 64px 0 250px 0;
+
+                &__container {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px 0;
+
+
+
+                    &--tag {
+                        width: 91.5px;
+                        height: 91.5px;
+                        margin-bottom: 0;
+                    }
+
+                    &--text {
+                        font-size: 32px;
+
+                    }
+                }
+            }
+
+        }
+
+    }
 }

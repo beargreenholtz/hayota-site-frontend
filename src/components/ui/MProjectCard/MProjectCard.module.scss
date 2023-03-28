@@ -1,8 +1,17 @@
+@use 'sass:map';
+
+@import '../../../styles/variables.scss';
+
 .container {
     display: flex;
     flex-direction: column;
-    
+
     width: 418px;
+
+
+    & a {
+        text-decoration: none;
+    }
 
     .projectImage {
         width: 418px;
@@ -25,7 +34,31 @@
         .description {
             color: white;
             font-size: 32.4467px;
+
+
         }
     }
 
+}
+
+@media (max-width: map.get($sizes, main-mobile-width)) {
+    .container {
+        max-width: map.get($sizes, main-mobile-width);
+        width: 287px;
+
+        .projectImage {
+            width: 287px;
+            height: 161px;
+            margin-bottom: 8px;
+        }
+
+        .projectTitleContainer {
+            flex-direction: column;
+            gap: 8px 0;
+            margin-bottom: 32px;
+        }
+
+
+
+    }
 }

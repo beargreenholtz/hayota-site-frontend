@@ -15,20 +15,24 @@ const AboutView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => 
   return (
     <>
       <section className={classes['container']}>
-        <h1 className={classes['mainTitle']}>About</h1>
+      <button onClick={props.onNevigateToMain} className={classes['button'] }><img src={hayotaLady} alt="logo" className={classes['hayotaLady']}/></button>
+
+        <h1 className={classes['mainTitle']}>HAYOTA</h1>
         <div className={classes['infoContainer']}>
           <div className={classes['companyInfo']}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor,
-              quam vitae vel urna, sit. Neque urna pellentesque tincidunt
-              fringilla nibh nec. Eu enim enim, urna posuere pulvinar consequat
-              justo. Mi, neque cursus pellentesque proin facilisis.
+            At <span>HAYOTA</span>, we're a small but mighty web design and development studio that's all about creativity, innovation, and a touch of quirkiness. 
+We're the kind of team that believes in pushing boundaries, exploring new ideas, and taking risks that lead to stunning results.
+
+
+
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor,
-              quam vitae vel urna, sit. Neque urna pellentesque tincidunt
-              fringilla nibh nec. Eu enim enim, urna posuere pulvinar consequat
-              justo.
+         We're not your average web development firm. We're a group of passionate designers,
+and developers who love nothing more than bringing ideas to life in unique and unexpected ways, always striving to stay ahead of the curve.
+            </p>
+            <p>
+            So if you're looking for a web design and development partner that's not afraid to take risks and push boundaries, then look no further than <span>HAYOTA</span>. We're here to help you stand out in a crowded digital landscape and make your mark on the world.
             </p>
           </div>
           <div className={classes['teamInfo']}>
@@ -84,7 +88,6 @@ const AboutView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => 
           </div>
         </div>
       </section>
-      <button onClick={props.onNevigateToMain} className={classes['button'] }><img src={hayotaLady} alt="logo" className={classes['hayotaLady']}/></button>
     </>
   );
 };
