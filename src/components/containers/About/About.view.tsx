@@ -66,7 +66,7 @@ and developers who love nothing more than bringing ideas to life in unique and u
                 Web Developer
               </span>
               <span className={classes['teamInfo__container--text']}>
-                abamirbs111@gmail.com
+                abamirbs11@gmail.com
               </span>
             </div>
             <div className={classes['teamInfo__container']}>

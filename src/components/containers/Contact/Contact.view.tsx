@@ -24,7 +24,7 @@ const ContactView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) =
           </div>
           <div className={classes['emailContainer']}>
             <p>WEB DEV</p>
-            <a>ABAMIRBS111@GMAIL.COM</a>
+            <a>ABAMIRBS11@GMAIL.COM</a>
             <a>BEARGREENHOLTZ@GMAIL.COM</a>
           </div>
         </div>
