@@ -20,12 +20,12 @@ const ContactView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) =
           <h1>LET’S TALK</h1>
           <div className={classes['emailContainer']}>
             <p>DESIGN</p>
-            <a>SHILOHROYI@GMAIL.COM</a>
+            <a href="mailto:shilohroyi@gmail.com">SHILOHROYI@GMAIL.COM</a>
           </div>
           <div className={classes['emailContainer']}>
             <p>WEB DEV</p>
-            <a>ABAMIRBS11@GMAIL.COM</a>
-            <a>BEARGREENHOLTZ@GMAIL.COM</a>
+            <a href="mailto:abamirbs11@gmail.com">ABAMIRBS11@GMAIL.COM</a>
+            <a href="mailto:beargreenholtz@gmail.com">BEARGREENHOLTZ@GMAIL.COM</a>
           </div>
         </div>
       </section>
