@@ -39,6 +39,14 @@ const ProjectsView: React.FC<IProps> = (
             projectImageLocation="https://i.imgur.com/L0Ce85P.jpg"
             projectTitle="Exlint Landing Page"
           />
+
+         <MProjectCard
+            projectLink="https://vinyl-depository-landing-page.vercel.app/"
+            projectDesc="2021"
+            projectImageLocation="https://i.imgur.com/nZ6qXjs.png"
+            projectTitle="Vinyl Depository"
+          />
+
         </ScrollContainer>
       </section>
     </>
