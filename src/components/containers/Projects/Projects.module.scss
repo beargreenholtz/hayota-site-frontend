@@ -16,7 +16,7 @@
 
     }
 
-    .projecstContainer {
+    .projecstContainerWeb {
         display: flex;
         overflow-x: auto;
         gap: 0 32px;
@@ -24,6 +24,11 @@
         align-items: center;
         padding-inline-start: 164px;
     }
+
+    .projecstContainerMobile {
+        display: none;
+    }
+
 
 
 }
@@ -188,14 +193,21 @@
             margin-inline-start: 0;
         }
 
-        .projecstContainer {
+        .projecstContainerWeb {
+            display: none;
+        }
+
+        .projecstContainerMobile {
             display: flex;
             flex-direction: column;
             margin-top: 64px;
             padding-inline-start: initial;
             overflow-x: hidden;
             width: 100%;
+            height: 100vh;
+            align-items: center;
+            overflow-y: hidden;
+            margin-bottom: 50px;
         }
     }
-
 }
