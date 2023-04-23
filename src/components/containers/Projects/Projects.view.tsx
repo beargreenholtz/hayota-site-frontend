@@ -46,6 +46,13 @@ const ProjectsView: React.FC<IProps> = (
             projectImageLocation="https://i.imgur.com/nZ6qXjs.png"
             projectTitle="Vinyl Depository"
           />
+          
+          <MProjectCard
+            projectLink="https://seashell-app-3ar2i.ondigitalocean.app/"
+            projectDesc="2023"
+            projectImageLocation="https://i.imgur.com/OT5EMb5.png"
+            projectTitle="Aviv Shiloh Portfolio"
+          />
 
         </ScrollContainer>
       </section>
