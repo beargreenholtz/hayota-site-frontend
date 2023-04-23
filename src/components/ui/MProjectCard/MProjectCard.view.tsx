@@ -20,7 +20,6 @@ const MProjectCardView: React.FC<IProps> = (
           glareEnable
           glareBorderRadius="10"
           scale={1.05}
-          gyroscope
           glarePosition="all"
           glareMaxOpacity={0.2}
         >
