@@ -55,7 +55,7 @@ const ProjectsView: React.FC<IProps> = (
 
 
           <MProjectCard
-            projectLink="https://involved-layout-133685.framer.app/"
+            projectLink="https://royshiloh.com/"
             projectDesc="2023"
             projectImageLocation="https://i.imgur.com/34AlHtq.jpg"
             projectTitle="Roy Portfolio"
