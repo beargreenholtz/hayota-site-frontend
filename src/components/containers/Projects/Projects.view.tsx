@@ -53,6 +53,14 @@ const ProjectsView: React.FC<IProps> = (
             projectTitle="Aviv Shiloh Portfolio"
           />
 
+
+          <MProjectCard
+            projectLink="https://involved-layout-133685.framer.app/"
+            projectDesc="2023"
+            projectImageLocation="https://i.imgur.com/34AlHtq.jpg"
+            projectTitle="Roy Portfolio"
+          />
+
         </ScrollContainer>
       </section>
     </>
