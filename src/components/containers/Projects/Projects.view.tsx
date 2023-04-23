@@ -23,7 +23,6 @@ const ProjectsView: React.FC<IProps> = (
 
         <ScrollContainer
           hideScrollbars
-          nativeMobileScroll
           className={classes['projecstContainer']}
         >
           <MProjectCard
