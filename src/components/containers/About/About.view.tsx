@@ -4,6 +4,7 @@ import hayotaLady from '../../../assets/hayotalady.png';
 import royTag from '../../../assets/tags/royTag.svg';
 import amirTag from '../../../assets/tags/amirTag.svg';
 import bearTag from '../../../assets/tags/bearTag.svg';
+import arrow from '../../../assets/arrow.svg'
 
 import classes from './About.module.scss';
 
@@ -17,7 +18,13 @@ const AboutView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => 
       <section className={classes['container']}>
       <button onClick={props.onNevigateToMain} className={classes['button'] }><img src={hayotaLady} alt="logo" className={classes['hayotaLady']}/></button>
 
-        <h1 className={classes['mainTitle']}>HAYOTA</h1>
+      <div className={classes['mainTitle']}>
+        <button onClick={props.onNevigateToMain} className={classes['button']}>
+        <img src={arrow} className={classes['mainTitle__vector']}/>
+        </button>
+        <h1 className={classes['mainTitle__title']}>HAYOTA</h1>
+        </div>
+        
         <div className={classes['infoContainer']}>
           <div className={classes['companyInfo']}>
             <p>
@@ -49,7 +56,7 @@ and developers who love nothing more than bringing ideas to life in unique and u
                 Product Designer
               </span>
               <span className={classes['teamInfo__container--text']}>
-                shilohroyi@gmail.com
+              <a href="mailto:shilohroyi@gmail.com" className={classes['teamInfo__container--text__mail']}>SHILOHROYI@GMAIL.COM</a>
               </span>
             </div>
 
@@ -66,7 +73,7 @@ and developers who love nothing more than bringing ideas to life in unique and u
                 Web Developer
               </span>
               <span className={classes['teamInfo__container--text']}>
-                abamirbs11@gmail.com
+                 <a href="mailto:amir.benshi@gmail.com" className={classes['teamInfo__container--text__mail']}>AMIR.BENSHI@GMAIL.COM</a>
               </span>
             </div>
             <div className={classes['teamInfo__container']}>
@@ -81,9 +88,7 @@ and developers who love nothing more than bringing ideas to life in unique and u
               <span className={classes['teamInfo__container--text']}>
                 Web Developer
               </span>
-              <span className={classes['teamInfo__container--text']}>
-                beargreenholtz@gmail.com
-              </span>
+           
             </div>
           </div>
         </div>

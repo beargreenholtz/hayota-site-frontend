@@ -4,6 +4,7 @@ import ScrollContainer from 'react-indiana-drag-scroll';
 import MProjectCard from '../../ui/MProjectCard';
 import hayotaLady from '../../../assets/hayotalady.png';
 import { project } from '../../../data/project'
+import arrow from '../../../assets/arrow.svg'
 
 import classes from './Projects.module.scss';
 
@@ -20,7 +21,12 @@ const ProjectsView: React.FC<IProps> = (
         <img src={hayotaLady} alt="logo" className={classes['hayotaLady']} />
       </button>
       <section className={classes['container']}>
-        <h1 className={classes['mainTitle']}>PROJECTS</h1>
+        <div className={classes['mainTitle']}>
+        <button onClick={props.onNevigateToMain} className={classes['button']}>
+        <img src={arrow} className={classes['mainTitle__vector']}/>
+        </button>
+        <h1 className={classes['mainTitle__title']}>PROJECTS</h1>
+        </div>
 
         <ScrollContainer
           hideScrollbars

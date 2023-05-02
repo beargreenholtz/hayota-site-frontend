@@ -1,6 +1,7 @@
 import React from 'react';
 
 import hayotaLady from '../../../assets/hayotalady.png';
+import arrow from '../../../assets/arrow.svg'
 
 import classes from './Contact.module.scss';
 
@@ -15,7 +16,12 @@ const ContactView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) =
       <section className={classes['container']}>
       <button onClick={props.onNevigateToMain} className={classes['button'] }><img src={hayotaLady} alt="logo" className={classes['hayotaLady']}/></button>
 
-        <h1 className={classes['mainTitle']}>CONTACT</h1>
+      <div className={classes['mainTitle']}>
+        <button onClick={props.onNevigateToMain} className={classes['button']}>
+        <img src={arrow} className={classes['mainTitle__vector']}/>
+        </button>
+        <h1 className={classes['mainTitle__title']}>CONTACT</h1>
+        </div>
         <div className={classes['infoContainer']}>
           <h1>LET’S TALK</h1>
           <div className={classes['emailContainer']}>
@@ -24,8 +30,7 @@ const ContactView: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) =
           </div>
           <div className={classes['emailContainer']}>
             <p>WEB DEV</p>
-            <a href="mailto:abamirbs11@gmail.com">ABAMIRBS11@GMAIL.COM</a>
-            <a href="mailto:beargreenholtz@gmail.com">BEARGREENHOLTZ@GMAIL.COM</a>
+            <a href="mailto:amir.benshi@gmail.com">AMIR.BENSHI@GMAIL.COM</a>
           </div>
         </div>
       </section>

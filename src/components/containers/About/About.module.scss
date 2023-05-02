@@ -19,11 +19,25 @@
     height: auto;
 
     .mainTitle {
-        color: #000000;
-        margin-block-start: 164px;
+        color: #000;
+        margin-block-start: 121px;
         margin-inline-start: 164px;
-        font-size: 36px;
-        font-weight: 400;
+
+        & button {
+            animation: cursor 1.5s linear infinite;
+            cursor: url('https://i.imgur.com/RmWj5D8.png')29 29, auto;
+        }
+
+        &__vector {
+            margin-bottom: 24px;
+            filter: brightness(0);
+
+        }
+
+        &__title {
+            font-size: 36px;
+            font-weight: 400;
+        }
     }
 
     .infoContainer {
@@ -66,6 +80,13 @@
 
                 &--text {
                     font-size: 36px;
+
+                    &__mail {
+                        color: #000;
+                        text-decoration: none;
+                        cursor: url('https://i.imgur.com/RmWj5D8.png')29 29, auto;
+
+                    }
                 }
             }
         }
